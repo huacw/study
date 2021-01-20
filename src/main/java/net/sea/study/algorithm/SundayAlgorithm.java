@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @Description: 字符串匹配算法Sunday
+ * @Description: 字符串匹配算法Sunday(单模式匹配)
  * @Author: hcw
  * @Date: 2021/1/20 14:18
  */
