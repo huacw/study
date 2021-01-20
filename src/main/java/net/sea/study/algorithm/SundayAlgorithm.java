@@ -47,11 +47,10 @@ public class SundayAlgorithm {
                 int pos = contains(patternChars, destChars[i + patternLength - j]);
                 if (pos == -1) {
                     i = i + patternLength + 1 - j;
-                    j = 0;
                 } else {
                     i = i + patternLength - pos - j;
-                    j = 0;
                 }
+                j = 0;
             } else {
                 if (j == (patternLength - 1)) {
                     System.out.println("the start pos is " + (i - j) + " the end pos is " + i);
